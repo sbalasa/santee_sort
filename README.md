@@ -9,7 +9,7 @@ In [1]: from santee_sort import santee_sort
 
 In [2]: items = [34, 12, 3, 4, 22, 1]
 
-In [3]: santee_sort(items
+In [3]: santee_sort(items)
 
 In [4]: items
 Out[4]: [1, 3, 4, 12, 22, 34]
