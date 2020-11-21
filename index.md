@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# santee_sort
+My own sorting algorithm ha !
 
-You can use the [editor on GitHub](https://github.com/sbalasa/santee_sort/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Eg:
+## To sort in Ascending order
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```
+In [1]: from santee_sort import santee_sort
 
-### Markdown
+In [2]: items = [34, 12, 3, 4, 22, 1]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In [3]: santee_sort(items)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+In [4]: items
+Out[4]: [1, 3, 4, 12, 22, 34]
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## To sort in Descending order
 
-### Jekyll Themes
+```
+In [5]: santee_sort(items, True)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sbalasa/santee_sort/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In [6]: items
+Out[6]: [34, 22, 12, 4, 3, 1]
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```
